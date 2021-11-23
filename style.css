@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.c-white{
+    color: white
+}
+
+.prova{
+    background-color: rgb(163, 224, 224);
+}
+
+.prova1{
+    background-color: beige;
+}
+
+.prova2{
+    background-color: rgb(155, 151, 151);
+}
