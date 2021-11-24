@@ -13,119 +13,113 @@
 <body>
 
     <header>
-        <div class="container-fluid">
-            <div class="row justify-content-center text-center align-items-center prova">
-                <div class="col-6 c-white">START BOOTSTRAP</div>
-                <div class="col-6">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link active c-white" aria-current="page" href="#">PROFILO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link c-white" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link c-white" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-end" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-end" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-end" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div> 
             </div>
-        </div>
+          </nav>
     </header>
 
     <main>
-        <div class="container-fluid prova1">
-            <div class="row d-flex justify-content-center text-center ">
-                <div class="col-6">
-                    <img src="./bootstrap_freelancer/img/avatar.svg" class="img-fluid" alt="">
+        <section class="ms_section_green py-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 ms_element text-center">
+                        <img class="ms_img" src="./bootstrap_freelancer/img/avatar.svg" class="img-fluid" alt="">
+                        <h1>START BOOTSTRAP</h1>
+                        <div class="ms_star">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h3>GRAFICH ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
+                    </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">START BOOTSTRAP</div>
-            </div>
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">
-                    -----
-                    <i class="bi bi-star-fill"></i>
-                    -----
+        </section>
+
+        <section class="py-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>PORTFOLIO</h2>
+                        <div class="ms_star_blk">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 row-cols-lg-3 row-cols-md-2 row-cols-1">
+                    <div class="col p-3 ms_portfolio_item">
+                        <img src="./bootstrap_freelancer/img/cabin.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col p-3 ms_portfolio_item">
+                        <img src="./bootstrap_freelancer/img/cake.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col p-3 ms_portfolio_item">
+                        <img src="./bootstrap_freelancer/img/circus.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col p-3 ms_portfolio_item">
+                        <img src="./bootstrap_freelancer/img/game.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col p-3 ms_portfolio_item">
+                        <img src="./bootstrap_freelancer/img/safe.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col p-3 ms_portfolio_item">
+                        <img src="./bootstrap_freelancer/img/submarine.png" class="img-fluid" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">GRAFICH ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+        </section>
+
+        <section class="ms_section_green py-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>ABOUT</h2>
+                        <div class="ms_star">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>   
+                </div>
+            
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident.</div>
+                    <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cumque.</div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="btn d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="bi bi-download"></i>
+                        Download
+                    </button>
+                </div>    
             </div>
-        </div>
+        </section>
 
 
-        <div class="container-fluid prova2">
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">PORTFOLIO</div>
-            </div>
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">
-                    -----
-                    <i class="bi bi-star-fill"></i>
-                    -----
-                </div>
-            </div>
-            <div class="row row-cols-3 d-flex justify-content-center text-center prova">
-                <div class="col">
-                    <img src="./bootstrap_freelancer/img/cabin.png" class="img-fluid" alt="">
-                </div>
-                <div class="col">
-                    <img src="./bootstrap_freelancer/img/cake.png" class="img-fluid" alt="">
-                </div>
-                <div class="col">
-                    <img src="./bootstrap_freelancer/img/circus.png" class="img-fluid" alt="">
-                </div>
-                <div class="col">
-                    <img src="./bootstrap_freelancer/img/game.png" class="img-fluid" alt="">
-                </div>
-                <div class="col">
-                    <img src="./bootstrap_freelancer/img/safe.png" class="img-fluid" alt="">
-                </div>
-                <div class="col">
-                    <img src="./bootstrap_freelancer/img/submarine.png" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container-fluid prova1">
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">ABOUT</div>
-            </div>
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">
-                    -----
-                    <i class="bi bi-star-fill"></i>
-                    -----
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-2"></div>
-                <div class="col-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident.</div>
-                <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cumque.</div>
-                <div class="col-2"></div>
-            </div>
-            <div class="btn d-flex justify-content-center">
-                <button type="button" class="btn btn-outline-primary btn-sm">
-                    <i class="bi bi-download"></i>
-                    Download
-                </button>
-            </div>    
-
-        </div>
-
-
-        <div class="container-fluid bg-success">
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">CONTACT ME</div>
-            </div>
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-6">
-                    -----
-                    <i class="bi bi-star-fill"></i>
-                    -----
+        <section class="ms_section_green py-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>CONTACT </h2>
+                    <div class="ms_star_blk">
+                        <i class="bi bi-star-fill"></i>
+                    </div>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
@@ -160,26 +154,43 @@
                 </div>
                 <div class="col-2"></div>
             </div>    
+        </section>
 
-        </div>
     </main>
     <footer>
 
-        <div class="container-fluid prova1">
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, vel.</div>
-                <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, explicabo.</div>
-                <div class="col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, dolorum.</div>
-                <div class="col-1"></div>
+        <section class="py-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-8 col-md-6 mx-auto"></div>
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control border-0 border-bottom" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="name">
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Message</label>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="container-fluid prova">
+
+
+        <section class="row">
+            <div class="col-1"></div>
+            <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, vel.</div>
+            <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, explicabo.</div>
+            <div class="col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, dolorum.</div>
+            <div class="col-1"></div>
+        </section>
+
+        <section class="container-fluid prova">
             <div class="row d-flex justify-content-center text-center">
                 Copyright Your Website 2019
             </div>
-        </div>
+        </section>
 
     </footer>
 

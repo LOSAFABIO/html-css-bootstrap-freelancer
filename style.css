@@ -19,3 +19,66 @@
 .prova2{
     background-color: rgb(155, 151, 151);
 }
+
+.w80{
+    width: 80%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.w40{
+    width: 40%;
+}
+
+.ms_section_green{
+    color: white;
+    background-color: #1ABC9C;
+}
+
+.ms_img{
+    width: 250px;
+}
+
+.ms_star{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+.ms_star i{
+    vertical-align: middle;
+}
+
+.ms_star:before,
+.ms_star:after{
+content:"";
+display: inline-block;
+width: 15%;
+height: 3px;
+line-height: 4px;
+background-color: white;
+vertical-align: middle;
+border-radius: 5px;
+}
+
+.ms_star_blk:before,
+.ms_star_blk:after{
+    content:"";
+    display: inline-block;
+    width: 15%;
+    height: 3px;
+    line-height: 4px;
+    background-color: black;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.ms_star_blk{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+}
