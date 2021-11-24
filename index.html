@@ -19,7 +19,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active text-end" aria-current="page" href="#">Portfolio</a>
@@ -43,7 +43,7 @@
                     <div class="col-12 ms_element text-center">
                         <img class="ms_img" src="./bootstrap_freelancer/img/avatar.svg" class="img-fluid" alt="">
                         <h1>START BOOTSTRAP</h1>
-                        <div class="ms_star">
+                        <div class="ms_star ms_mrga">
                             <i class="bi bi-star-fill"></i>
                         </div>
                         <h3>GRAFICH ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
@@ -57,12 +57,12 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2>PORTFOLIO</h2>
-                        <div class="ms_star_blk">
+                        <div class="ms_star_blk ms_mrga">
                             <i class="bi bi-star-fill"></i>
                         </div>
                     </div>
                 </div>
-                <div class="row g-2 row-cols-lg-3 row-cols-md-2 row-cols-1">
+                <div class="row g-2 row-cols-lg-3 row-cols-md-2 row-cols-1 w90 ms_mrga">
                     <div class="col p-3 ms_portfolio_item">
                         <img src="./bootstrap_freelancer/img/cabin.png" class="img-fluid" alt="">
                     </div>
@@ -90,93 +90,57 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2>ABOUT</h2>
-                        <div class="ms_star">
+                        <div class="ms_star ms_mrga">
                             <i class="bi bi-star-fill"></i>
                         </div>
                     </div>   
                 </div>
             
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident.</div>
-                    <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cumque.</div>
-                    <div class="col-2"></div>
+                <div class="row w70 ms_mrga">
+                    <div class="col-6">Freelancer is a free bootstrap theme created by Start Boostrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
+                    <div class="col-6">Whether you're a student looking to showcase your work a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
                 </div>
-                <div class="btn d-flex justify-content-center">
-                    <button type="button" class="btn btn-outline-primary btn-sm">
-                        <i class="bi bi-download"></i>
-                        Download
-                    </button>
+                <div class="row">
+                    <div class="col-12 text-center p-4">
+                        <button type="button" class="btn btn-outline-primary ms_btn_w btn-sm">
+                            <i class="bi bi-download"></i>
+                            Download
+                        </button>
+                    </div>
                 </div>    
             </div>
         </section>
 
 
-        <section class="ms_section_green py-3">
+        <section class="py-3">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <h2>CONTACT </h2>
-                    <div class="ms_star_blk">
-                        <i class="bi bi-star-fill"></i>
+                    <div class="col-12 col-sm-8 col-md-6 ms_mrga w70">
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control border-0 border-bottom" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Name">
+                        </div>
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control border-0 border-bottom" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Email Address ">
+                        </div>
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control border-0 border-bottom" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Phone Number">
+                        </div>
+                        <div class="input-group input-group-lg pb-2">
+                            <div class="form-floating">
+                                <textarea class="form-control ms_hw_textarea" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Message</label>
+                              </div>
+                        </div>
+                        <div class="ms_send">
+                            <button type="submit" class="btn btn-success">Send</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-2"></div>
-                <div class="col-8">Name
-                    <hr>
-                </div>
-                <div class="col-2"></div>
-                <div class="col-2"></div>
-                <div class="col-8">Email Address
-                    <hr>
-                </div>
-                <div class="col-2"></div>
-                <div class="col-2"></div>
-                <div class="col-8">Phone Number
-                    <hr>
-                </div>
-                <div class="col-2"></div>
-                <div class="col-2"></div>
-                <div class="col-8">Message
-                    <hr>
-                </div>
-                <div class="col-2"></div>
-            </div>    
-            <div class="row row-cols-3">
-                <div class="col-2"></div>
-                <div class="btn d-flex justify-content-start">
-                    <button type="button" class="col-8 btn btn-outline-primary btn-sm">
-                        <i class="bi bi-download"></i>
-                        Download
-                    </button>
-                </div>
-                <div class="col-2"></div>
             </div>    
         </section>
 
     </main>
     <footer>
-
-        <section class="py-3">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-sm-8 col-md-6 mx-auto"></div>
-                    <div class="input-group input-group-lg">
-                        <input type="text" class="form-control border-0 border-bottom" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="name">
-                    </div>
-                    <div class="input-group input-group-lg">
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                            <label for="floatingTextarea">Message</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
 
         <section class="row">
             <div class="col-1"></div>

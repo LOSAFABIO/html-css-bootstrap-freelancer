@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+.body{
+    overflow:hidden;
+}
+
 .c-white{
     color: white
 }
@@ -20,12 +28,24 @@
     background-color: rgb(155, 151, 151);
 }
 
+.w90{
+    width: 90%;
+}
+
 .w80{
     width: 80%;
 }
 
+.w70{
+    width: 70%;
+}
+
 .w60{
     width: 60%;
+}
+
+.w50{
+    width: 50%;
 }
 
 .w40{
@@ -44,7 +64,6 @@
 .ms_star{
     max-width: 400px;
     width: 100%;
-    margin: 0 auto;
     color: white;
 }
 
@@ -54,14 +73,14 @@
 
 .ms_star:before,
 .ms_star:after{
-content:"";
-display: inline-block;
-width: 15%;
-height: 3px;
-line-height: 4px;
-background-color: white;
-vertical-align: middle;
-border-radius: 5px;
+    content:"";
+    display: inline-block;
+    width: 15%;
+    height: 3px;
+    line-height: 4px;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 5px;
 }
 
 .ms_star_blk:before,
@@ -79,6 +98,29 @@ border-radius: 5px;
 .ms_star_blk{
     max-width: 400px;
     width: 100%;
-    margin: 0 auto;
     color: black;
+}
+
+.ms_mrga{
+    margin: 0 auto;
+}
+
+.ms_btn_w{
+    color: white;
+    border-color: white;
+}
+
+.ms_brd_contact{
+    border: 0;
+    border-bottom: solid 1px;
+    opacity: .7;
+}
+
+.ms_hw_textarea{
+    width: 543px;
+    height: 100%;
+}
+
+.ms_send{
+    padding-bottom: 30px;
 }
