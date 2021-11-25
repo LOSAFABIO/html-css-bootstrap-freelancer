@@ -16,16 +16,12 @@ body{
     color: white
 }
 
-.prova{
-    background-color: rgb(163, 224, 224);
+.ms_bg_nav{
+    background-color: #3a546d;
 }
 
-.prova1{
-    background-color: beige;
-}
-
-.prova2{
-    background-color: rgb(155, 151, 151);
+.ms_bg_foot{
+    background-color: #4c7091;
 }
 
 .w90{
@@ -113,14 +109,17 @@ body{
 .ms_brd_contact{
     border: 0;
     border-bottom: solid 1px;
-    opacity: .7;
 }
 
 .ms_hw_textarea{
-    width: 543px;
-    height: 100%;
+    width: 100%;
+    min-height: 200px;
 }
 
 .ms_send{
     padding-bottom: 30px;
+}
+
+.ms_bord_rad{
+    border-radius: 10px;
 }
